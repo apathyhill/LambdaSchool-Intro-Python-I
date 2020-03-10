@@ -20,7 +20,7 @@ with open(os.path.dirname(__file__) + "\\foo.txt", "r") as f:
 # sure that it contains what you expect it to contain
 with open(os.path.dirname(__file__) + "\\bar.txt", "w") as f:
     f.writelines([
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Duis eu enim ut ante rhoncus fermentum ac ut massa."
-        "Curabitur vulputate mi eget lectus accumsan hendrerit a vitae metus."])
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n",
+        "Duis eu enim ut ante rhoncus fermentum ac ut massa.\n"
+        "Curabitur vulputate mi eget lectus accumsan hendrerit a vitae metus.\n"])
     f.close()
